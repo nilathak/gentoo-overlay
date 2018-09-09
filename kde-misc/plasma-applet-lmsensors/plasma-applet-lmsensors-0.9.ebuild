@@ -1,4 +1,4 @@
-# Copyright 1999-2017 Gentoo Foundation
+# Copyright 1999-2018 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=6
@@ -14,6 +14,8 @@ if [[ ${KDE_BUILD_TYPE} = live ]] ; then
 else
 	SRC_URI="https://github.com/nilathak/${PN}/archive/v${PV}.tar.gz -> ${P}.tar.gz"
 fi
+
+RESTRICT="mirror"
 
 LICENSE="GPL-2+"
 KEYWORDS="amd64"

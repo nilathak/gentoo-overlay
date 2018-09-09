@@ -1,1 +1,0 @@
-plasma-applet-lmsensors-0.9.ebuild

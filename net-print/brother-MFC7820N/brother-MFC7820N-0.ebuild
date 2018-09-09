@@ -1,8 +1,7 @@
-# Copyright 1999-2015 Gentoo Foundation
+# Copyright 1999-2018 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: $
 
-EAPI=5
+EAPI=6
 
 inherit multilib rpm
 
@@ -10,6 +9,7 @@ DESCRIPTION="Brother MFC7820N linux drivers"
 HOMEPAGE="http://www.brother.com/"
 
 RESTRICT="mirror"
+
 SRC_URI="
 	http://download.brother.com/welcome/dlf006267/cupswrapperMFC7820N-2.0.1-1.i386.rpm
 	http://download.brother.com/welcome/dlf006265/brmfc7820nlpr-2.0.1-1.i386.rpm
@@ -33,10 +33,10 @@ RDEPEND="
 	app-text/a2ps
 	app-text/ghostscript-gpl
 	app-text/psutils
-	dev-libs/libusb-compat
 	media-gfx/sane-backends
 	net-print/cups
 	sys-apps/sed
+	virtual/libusb
 "
 
 DEVICE_NAME="MFC7820N"
