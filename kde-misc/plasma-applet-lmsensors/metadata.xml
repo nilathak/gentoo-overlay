@@ -5,7 +5,4 @@
 		<email>nilathak@users.noreply.github.com</email>
 		<name>Hannes Schweizer</name>
 	</maintainer>
-	<upstream>
-		<remote-id type="github">nilathak/plasma-applet-lmsensors</remote-id>
-	</upstream>
 </pkgmetadata>
