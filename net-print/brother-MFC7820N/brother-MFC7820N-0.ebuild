@@ -1,4 +1,4 @@
-# Copyright 1999-2018 Gentoo Foundation
+# Copyright 1999-2019 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=6
@@ -33,10 +33,10 @@ RDEPEND="
 	app-text/a2ps
 	app-text/ghostscript-gpl
 	app-text/psutils
+	dev-libs/libusb-compat
 	media-gfx/sane-backends
 	net-print/cups
 	sys-apps/sed
-	virtual/libusb
 "
 
 DEVICE_NAME="MFC7820N"
