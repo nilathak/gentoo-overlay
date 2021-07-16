@@ -1,4 +1,4 @@
-# Copyright 1999-2020 Gentoo Authors
+# Copyright 1999-2021 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
@@ -9,8 +9,10 @@ inherit go-module
 EGO_SUM=(
 	"github.com/davecgh/go-spew v1.1.0"
 	"github.com/davecgh/go-spew v1.1.0/go.mod"
-	"github.com/hanwen/go-fuse v1.0.1-0.20190319092520-161a16484456"
-	"github.com/hanwen/go-fuse v1.0.1-0.20190319092520-161a16484456/go.mod"
+	"github.com/hanwen/go-fuse v1.0.0"
+	"github.com/hanwen/go-fuse v1.0.0/go.mod"
+	"github.com/hanwen/go-fuse/v2 v2.1.1-0.20210508151621-62c5aa1919a7"
+	"github.com/hanwen/go-fuse/v2 v2.1.1-0.20210508151621-62c5aa1919a7/go.mod"
 	"github.com/jacobsa/crypto v0.0.0-20190317225127-9f44e2d11115"
 	"github.com/jacobsa/crypto v0.0.0-20190317225127-9f44e2d11115/go.mod"
 	"github.com/jacobsa/oglematchers v0.0.0-20150720000706-141901ea67cd"
@@ -21,6 +23,8 @@ EGO_SUM=(
 	"github.com/jacobsa/ogletest v0.0.0-20170503003838-80d50a735a11/go.mod"
 	"github.com/jacobsa/reqtrace v0.0.0-20150505043853-245c9e0234cb"
 	"github.com/jacobsa/reqtrace v0.0.0-20150505043853-245c9e0234cb/go.mod"
+	"github.com/kylelemons/godebug v0.0.0-20170820004349-d65d576e9348"
+	"github.com/kylelemons/godebug v0.0.0-20170820004349-d65d576e9348/go.mod"
 	"github.com/pkg/xattr v0.4.1"
 	"github.com/pkg/xattr v0.4.1/go.mod"
 	"github.com/pmezard/go-difflib v1.0.0"
@@ -29,7 +33,6 @@ EGO_SUM=(
 	"github.com/rfjakob/eme v1.1.1/go.mod"
 	"github.com/sabhiram/go-gitignore v0.0.0-20180611051255-d3107576ba94"
 	"github.com/sabhiram/go-gitignore v0.0.0-20180611051255-d3107576ba94/go.mod"
-	"github.com/stretchr/objx v0.1.0"
 	"github.com/stretchr/objx v0.1.0/go.mod"
 	"github.com/stretchr/testify v1.5.1"
 	"github.com/stretchr/testify v1.5.1/go.mod"
@@ -39,13 +42,11 @@ EGO_SUM=(
 	"golang.org/x/net v0.0.0-20190404232315-eb5bcb51f2a3/go.mod"
 	"golang.org/x/net v0.0.0-20200324143707-d3edc9973b7e"
 	"golang.org/x/net v0.0.0-20200324143707-d3edc9973b7e/go.mod"
-	"golang.org/x/sync v0.0.0-20200317015054-43a5402ce75a"
-	"golang.org/x/sync v0.0.0-20200317015054-43a5402ce75a/go.mod"
+	"golang.org/x/sync v0.0.0-20201207232520-09787c993a3a/go.mod"
 	"golang.org/x/sys v0.0.0-20180830151530-49385e6e1522/go.mod"
 	"golang.org/x/sys v0.0.0-20181021155630-eda9bb28ed51/go.mod"
 	"golang.org/x/sys v0.0.0-20190215142949-d0b11bdaac8a/go.mod"
 	"golang.org/x/sys v0.0.0-20190412213103-97732733099d/go.mod"
-	"golang.org/x/sys v0.0.0-20200323222414-85ca7c5b95cd"
 	"golang.org/x/sys v0.0.0-20200323222414-85ca7c5b95cd/go.mod"
 	"golang.org/x/sys v0.0.0-20200501145240-bc7a7d42d5c3"
 	"golang.org/x/sys v0.0.0-20200501145240-bc7a7d42d5c3/go.mod"
