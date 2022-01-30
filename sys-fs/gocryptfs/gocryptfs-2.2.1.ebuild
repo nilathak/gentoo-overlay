@@ -1,4 +1,4 @@
-# Copyright 1999-2021 Gentoo Authors
+# Copyright 1999-2022 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
@@ -9,8 +9,8 @@ inherit go-module
 EGO_SUM=(
 	"github.com/davecgh/go-spew v1.1.0"
 	"github.com/davecgh/go-spew v1.1.0/go.mod"
-	"github.com/hanwen/go-fuse/v2 v2.1.1-0.20210802120645-15a8bb029a4e"
-	"github.com/hanwen/go-fuse/v2 v2.1.1-0.20210802120645-15a8bb029a4e/go.mod"
+	"github.com/hanwen/go-fuse/v2 v2.1.1-0.20210825171523-3ab5d95a30ae"
+	"github.com/hanwen/go-fuse/v2 v2.1.1-0.20210825171523-3ab5d95a30ae/go.mod"
 	"github.com/jacobsa/crypto v0.0.0-20190317225127-9f44e2d11115"
 	"github.com/jacobsa/crypto v0.0.0-20190317225127-9f44e2d11115/go.mod"
 	"github.com/jacobsa/oglematchers v0.0.0-20150720000706-141901ea67cd"
