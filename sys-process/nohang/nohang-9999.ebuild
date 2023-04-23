@@ -1,4 +1,4 @@
-# Copyright 2019-2022 Gentoo Authors
+# Copyright 2019-2023 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
@@ -10,7 +10,6 @@ DESCRIPTION="A sophisticated low memory handler for Linux"
 HOMEPAGE="https://github.com/hakavlad/nohang"
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="~amd64 ~x86"
 IUSE="systemd"
 
 EGIT_REPO_URI="https://github.com/hakavlad/nohang"
@@ -19,6 +18,7 @@ if [ "${PV}" = "9999" ]; then
 	EGIT_COMMIT=""
 else
 	EGIT_COMMIT="${PV}"
+	KEYWORDS="~amd64 ~x86"
 fi
 
 DEPEND="dev-lang/python
@@ -36,4 +36,7 @@ src_install() {
 	else
 		PREFIX="/usr" SYSCONFDIR="/etc" emake DESTDIR="${D}" -B install-openrc
 	fi
+
+	# fix permissions
+	chmod g-w "${ED}"/etc/init.d/nohang* || die
 }
