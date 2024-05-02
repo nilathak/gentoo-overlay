@@ -36,6 +36,7 @@ RDEPEND="
 	dev-libs/libusb-compat
 	media-gfx/sane-backends
 	net-print/cups
+	net-print/cups-meta
 	sys-apps/sed
 "
 
